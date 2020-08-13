@@ -32,13 +32,19 @@ Open ```http://localhost:3000``` to view in the browser.
 * [Eslint](https://eslint.org/) - For code review
 
 
+## Screenshot
+![Screenshot](https://i.imgur.com/iIiqZKU.png)
+
+## Task List
+
+- [x] Fix background size image for better performance
+- [ ] Add nav in header
+- [ ] Add Cypress Integration test
+
 
 ## Acknowledgments
 * Hat tip to everyone at [r/argentinaPrograma](https://argentinaprograma.com/)
 * etc
-
-## Screenshot
-![Screenshot](https://i.imgur.com/iIiqZKU.png)
 
 
 
