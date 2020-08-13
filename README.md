@@ -1,5 +1,5 @@
 # Jose-Larralde-Quotes-Generator
-A very simple React project to listing random quotes of José Larralde
+A very simple React project to list random quotes of José Larralde
 
 **About José Larralde:**
 
