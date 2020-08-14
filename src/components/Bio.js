@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const Bio = () => {
   return (
-    <div id="card" className="card w-75">
+    <div id="card" className="card w-75 bg-dark">
       <div className="card-header h5 text-left">About José Larralde:</div>
       <div className="card-text text-justify p-3">
         José Larralde (born in Huanguelén, Buenos Aires, 1937) is an Argentine
