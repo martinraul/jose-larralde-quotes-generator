@@ -21,8 +21,8 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className="app">
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+       <div className="app">
+        <nav className="navbar navbar-expand-lg navbar-light">
           {Object.entries(pages).map(([pageKey, pageData]) => (
             <div
               active={pageKey === currentPage}
@@ -35,7 +35,7 @@ function App() {
             </div>
           ))}
         </nav>
-        <img src={logo} className="App-logo mt-1" alt="logo" />
+        <img src={logo} className="App-logo mt-1 mb-1" alt="logo" />
         <div className="app-content">
           <CurrentComponent name={pages[currentPage].name} />
         </div>

@@ -1,6 +1,6 @@
 .App-logo {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   pointer-events: none;
 }
@@ -16,7 +16,6 @@
 }
 
 .app-content {
-  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +25,26 @@
 #button {
   background-color: #5b3029;
 }
+#button:hover {
+  background-color: #fee5c7;
+  color:black
+}
 
 .app-navigation {
+  background-color: #5b3029;
   border: 1px solid black;
   border-top: none;
 }
-.nav-link:hover {
-  cursor: pointer;
+.nav-link{
   background-color: #5b3029;
 }
+.nav-link:hover {
+  cursor: pointer;
+  background-color: #fee5c7;
+  color:black
+}
 
-#brand {
-  color: #fee5c7;
+.card {
+  background-color: #5b3029;
+  color:#fee5c7;
 }

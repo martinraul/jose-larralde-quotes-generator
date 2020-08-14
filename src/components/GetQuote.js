@@ -11,7 +11,7 @@ export function Getquote() {
 
   return (
     <div>
-      <div className="card text-white bg-dark mb-3">
+      <div className="card mb-3">
         <h5 className="card-title p-3">"{randomQuote.quote}"</h5>
         <h6 className="card-subtitle mb-2 text-muted">
           Song:"{randomQuote.cancion}"
