@@ -23,7 +23,8 @@
 }
 
 #button {
-  background-color: #5b3029;
+  background-color: #592E27;
+  color: white;
 }
 #button:hover {
   background-color: #fee5c7;
@@ -31,19 +32,21 @@
 }
 
 .app-navigation {
-  background-color: #5b3029;
+  background-color: #592E27;
   border: 1px solid black;
   border-top: none;
 }
 .nav-link{
-  background-color: #5b3029;
+  background-color: #592E27;
 }
 .nav-link:hover {
   cursor: pointer;
-  background-color: #fee5c7;
+  background-color: #F8C99A;
   color:black
 }
 
 .card {
-  color:#fee5c7;
+  color:#F8C99A;
+  background-color: #281613;
 }
+

@@ -1,5 +1,5 @@
 # Jose-Larralde-Quotes-Generator
-A very simple React project to list random quotes of José Larralde
+A very simple React project to list random quotes of José Larralde. Tested with Cypress
 
 **About José Larralde:**
 
@@ -24,8 +24,8 @@ Open ```http://localhost:3000``` to view in the browser.
 * Javascript
 * HTML
 * CSS 
-* [Bootstrap](https://getbootstrap.com/) - For design
 * [Cypress.io](https://www.cypress.io/) - For testing
+* [Bootstrap](https://getbootstrap.com/) - For design
 * [Eslint](https://eslint.org/) - For code review
 
 ## Screenshot
@@ -34,7 +34,7 @@ Open ```http://localhost:3000``` to view in the browser.
 ## Task List
 - [x] Fix background size image for better performance
 - [x] Add nav in header
-- [ ] Add Cypress Integration test
+- [x] Add Cypress Integration test
 
 
 ## Acknowledgments
