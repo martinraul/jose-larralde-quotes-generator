@@ -3,6 +3,7 @@ import logo from "./logo.jpg";
 import "./App.css";
 import { Getquote } from "./components/GetQuote.js";
 import { Bio } from "./components/Bio.js";
+import ReactGA from 'react-ga';
 
 const pages = {
   home: {
@@ -16,6 +17,8 @@ const pages = {
 };
 
 function App() {
+  ReactGA.initialize('G-SV60D026YR');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   const [currentPage, setCurrentPage] = useState("home");
   const CurrentComponent = pages[currentPage].component;
 
