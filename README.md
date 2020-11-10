@@ -1,5 +1,6 @@
 # Jose-Larralde-Quotes-Generator
-A very simple React project to list random quotes of José Larralde. Tested with Cypress
+A very simple React project to list random quotes of José Larralde.
+Tested with Cypress. (View MASTER or MAIN branch for entire project)
 
 **About José Larralde:**
 
