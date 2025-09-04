@@ -4,6 +4,7 @@ import "./App.css";
 import { Getquote } from "./components/GetQuote.js";
 import { Bio } from "./components/Bio.js";
 import ReactGA from 'react-ga';
+import packageJson from '../package.json';
 
 const pages = {
   home: {
@@ -42,6 +43,9 @@ function App() {
         <div className="app-content">
           <CurrentComponent name={pages[currentPage].name} />
         </div>
+        <footer style={{ fontSize: '0.8rem', textAlign: 'center', marginTop: '1rem' }}>
+          React version: {packageJson.dependencies.react}
+        </footer>
       </div>
     </React.Fragment>
   );
