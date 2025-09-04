@@ -1,23 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1515c638.chunk.css",
-    "main.js": "/static/js/main.742c098a.chunk.js",
-    "main.js.map": "/static/js/main.742c098a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.cd3710f5.chunk.js": "/static/js/2.cd3710f5.chunk.js",
-    "static/js/2.cd3710f5.chunk.js.map": "/static/js/2.cd3710f5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4a132c0067942719fbc24f9900c5bc8e.js": "/precache-manifest.4a132c0067942719fbc24f9900c5bc8e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1515c638.chunk.css.map": "/static/css/main.1515c638.chunk.css.map",
-    "static/js/2.cd3710f5.chunk.js.LICENSE.txt": "/static/js/2.cd3710f5.chunk.js.LICENSE.txt",
-    "static/media/logo.jpg": "/static/media/logo.be4e6933.jpg"
+    "main.css": "/Jose-Larralde-Quotes-Generator/static/css/main.faa4f3ee.css",
+    "main.js": "/Jose-Larralde-Quotes-Generator/static/js/main.3f18e11f.js",
+    "static/media/logo.jpg": "/Jose-Larralde-Quotes-Generator/static/media/logo.327f3caf398a43ffe6f5.jpg",
+    "static/media/background.jpg": "/Jose-Larralde-Quotes-Generator/static/media/background.b9e731917a2ba7cd8277.jpg",
+    "index.html": "/Jose-Larralde-Quotes-Generator/index.html",
+    "main.faa4f3ee.css.map": "/Jose-Larralde-Quotes-Generator/static/css/main.faa4f3ee.css.map",
+    "main.3f18e11f.js.map": "/Jose-Larralde-Quotes-Generator/static/js/main.3f18e11f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.cd3710f5.chunk.js",
-    "static/css/main.1515c638.chunk.css",
-    "static/js/main.742c098a.chunk.js"
+    "static/css/main.faa4f3ee.css",
+    "static/js/main.3f18e11f.js"
   ]
 }
