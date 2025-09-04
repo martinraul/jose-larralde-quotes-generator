@@ -1,7 +1,7 @@
 const URL = "http://localhost:3000/";
 
 context("JOSE LARRALDE QUOTE GENERATOR", () => {
-  before(() => {
+  beforeEach(() => {
     cy.visit(URL);
   });
   it("makes sure the APP deploys ok", () => {
@@ -69,5 +69,17 @@ context("JOSE LARRALDE QUOTE GENERATOR", () => {
       .click()
       .get(".app-content")
       .find("h5");
+  });
+
+  it("should show a new quote on button click", () => {
+    cy.get(".app-content").find("h5").then(($quote) => {
+      const initialQuote = $quote.text();
+
+      cy.get(".app-content").find("button").contains("GET QUOTE").click();
+
+      cy.get(".app-content").find("h5").should(($newQuote) => {
+        expect($newQuote.text()).not.to.equal(initialQuote);
+      });
+    });
   });
 });

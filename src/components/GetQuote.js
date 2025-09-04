@@ -2,31 +2,36 @@ import React, { useState, useEffect } from "react";
 import quotes from "./data/quotes.json";
 
 export function Getquote() {
-  const [ ,saveQuote] = useState([]);
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  const [quote, setQuote] = useState(null);
+
+  const getNewQuote = () => {
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    setQuote(randomQuote);
+  };
 
   useEffect(() => {
-    saveQuote();
+    getNewQuote();
   }, []);
 
   return (
     <React.Fragment>
       <div className="card mb-3">
-        <h5  className="card-title p-3">"{randomQuote.quote}"</h5>
-        <h6 id="subtitle" className="card-subtitle mb-2 text-muted">
-          Song:"{randomQuote.cancion}"
-        </h6>
+        {quote && (
+          <React.Fragment>
+            <h5 className="card-title p-3">"{quote.quote}"</h5>
+            <h6 id="subtitle" className="card-subtitle mb-2 text-muted">
+              Song:"{quote.cancion}"
+            </h6>
+          </React.Fragment>
+        )}
       </div>
       <button
         id="button"
         className="btn  btn-danger"
-        onClick={() => {
-          saveQuote(randomQuote);
-        }}
+        onClick={getNewQuote}
       >
         GET QUOTE
       </button>
-      </React.Fragment>
-
+    </React.Fragment>
   );
 }
