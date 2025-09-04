@@ -29,9 +29,7 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light">
           {Object.entries(pages).map(([pageKey, pageData]) => (
             <div
-              active={pageKey === currentPage}
               key={pageKey}
-              navigation
               onClick={() => setCurrentPage(pageKey)}
               className="nav-link table-hover "
             >
