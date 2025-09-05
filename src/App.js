@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./logo.jpg";
+import logo from "./assets/logo.jpg";
 import "./App.css";
 import { Getquote } from "./components/GetQuote.js";
 import { Bio } from "./components/Bio.js";

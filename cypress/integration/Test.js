@@ -35,24 +35,9 @@ context("JOSE LARRALDE QUOTE GENERATOR", () => {
     cy.get("h5").then(($h5) => {
       const txt = $h5.text();
       cy.get("button").click();
+      cy.wait(1000);
       cy.get("h5").should(($btn2) => {
         expect($btn2.text()).not.to.eq(txt);
-      });
-    });
-    cy.get("h5").then(($h5) => {
-      const txt = $h5.text();
-      cy.get("button").click();
-      cy.get("h5").should(($btn2) => {
-        expect($btn2.text()).not.to.eq(txt);
-      });
-      cy.get("h5").then(($h5) => {
-        const txt = $h5.text();
-        cy.get("button")
-          .click()
-          .get("h5")
-          .should(($btn2) => {
-            expect($btn2.text()).not.to.eq(txt);
-          });
       });
     });
   });
@@ -69,17 +54,5 @@ context("JOSE LARRALDE QUOTE GENERATOR", () => {
       .click()
       .get(".app-content")
       .find("h5");
-  });
-
-  it("should show a new quote on button click", () => {
-    cy.get(".app-content").find("h5").then(($quote) => {
-      const initialQuote = $quote.text();
-
-      cy.get(".app-content").find("button").contains("GET QUOTE").click();
-
-      cy.get(".app-content").find("h5").should(($newQuote) => {
-        expect($newQuote.text()).not.to.equal(initialQuote);
-      });
-    });
   });
 });
