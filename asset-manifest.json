@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/Jose-Larralde-Quotes-Generator/static/css/main.831ccdea.chunk.css",
-    "main.js": "/Jose-Larralde-Quotes-Generator/static/js/main.726ae41e.chunk.js",
-    "main.js.map": "/Jose-Larralde-Quotes-Generator/static/js/main.726ae41e.chunk.js.map",
-    "runtime-main.js": "/Jose-Larralde-Quotes-Generator/static/js/runtime-main.80d0217f.js",
-    "runtime-main.js.map": "/Jose-Larralde-Quotes-Generator/static/js/runtime-main.80d0217f.js.map",
-    "static/js/2.b774065f.chunk.js": "/Jose-Larralde-Quotes-Generator/static/js/2.b774065f.chunk.js",
-    "static/js/2.b774065f.chunk.js.map": "/Jose-Larralde-Quotes-Generator/static/js/2.b774065f.chunk.js.map",
+    "main.css": "/Jose-Larralde-Quotes-Generator/static/css/main.faa4f3ee.css",
+    "main.js": "/Jose-Larralde-Quotes-Generator/static/js/main.3cdb0e80.js",
+    "static/media/logo.jpg": "/Jose-Larralde-Quotes-Generator/static/media/logo.327f3caf398a43ffe6f5.jpg",
+    "static/media/background.jpg": "/Jose-Larralde-Quotes-Generator/static/media/background.b9e731917a2ba7cd8277.jpg",
     "index.html": "/Jose-Larralde-Quotes-Generator/index.html",
-    "precache-manifest.08b685af201e50cc12d4e7206f845f3d.js": "/Jose-Larralde-Quotes-Generator/precache-manifest.08b685af201e50cc12d4e7206f845f3d.js",
-    "service-worker.js": "/Jose-Larralde-Quotes-Generator/service-worker.js",
-    "static/css/main.831ccdea.chunk.css.map": "/Jose-Larralde-Quotes-Generator/static/css/main.831ccdea.chunk.css.map",
-    "static/js/2.b774065f.chunk.js.LICENSE.txt": "/Jose-Larralde-Quotes-Generator/static/js/2.b774065f.chunk.js.LICENSE.txt",
-    "static/media/background1.jpg": "/Jose-Larralde-Quotes-Generator/static/media/background1.b12106d1.jpg",
-    "static/media/logo.jpg": "/Jose-Larralde-Quotes-Generator/static/media/logo.be4e6933.jpg"
+    "main.faa4f3ee.css.map": "/Jose-Larralde-Quotes-Generator/static/css/main.faa4f3ee.css.map",
+    "main.3cdb0e80.js.map": "/Jose-Larralde-Quotes-Generator/static/js/main.3cdb0e80.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.80d0217f.js",
-    "static/js/2.b774065f.chunk.js",
-    "static/css/main.831ccdea.chunk.css",
-    "static/js/main.726ae41e.chunk.js"
+    "static/css/main.faa4f3ee.css",
+    "static/js/main.3cdb0e80.js"
   ]
 }
