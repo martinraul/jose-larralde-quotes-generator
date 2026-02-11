@@ -3,13 +3,19 @@ on:
   push:
     branches:
       - master
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
+      # 1. Update checkout to v4 for Node 20+ support
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      # 2. Update Cypress action to v6 (best for React 19/Vite)
       - name: Cypress run
-        uses: cypress-io/github-action@v4
+        uses: cypress-io/github-action@v6
         with:
-          start: npm start
+          build: npm run build
+          start: npm run preview
+          wait-on: "http://localhost:3000"
